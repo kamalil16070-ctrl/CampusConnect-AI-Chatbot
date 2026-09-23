@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - CampusConnect</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    :root {
+      --primary-color: #2C3E50;
+      --secondary-color: #3498DB;
+      --user-text-color: #FFF;
+      --light-gray: #F5F7FA;
+      --medium-gray: #BDC3C7;
+      --success-green: #2ECC71;
+      --error-red: #e74c3c;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--light-gray);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background-color: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .login-container h2 {
+      text-align: center;
+      margin-bottom: 24px;
+      color: var(--primary-color);
+    }
+
+    .login-container label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 500;
+      color: var(--primary-color);
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 16px;
+      border: 1px solid var(--medium-gray);
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 12px;
+      background-color: var(--primary-color);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .login-container button:hover {
+      background-color: var(--secondary-color);
+    }
+
+    .login-container .error {
+      color: var(--error-red);
+      margin-bottom: 12px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Admin Login</h2>
+    <form id="loginForm" method="POST" action="/admin/login">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Enter username" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter password" required>
+
+      <div class="error" id="errorMessage"></div>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <!-- Remove the entire <script> block below -->
+  <script>
+  // (No JavaScript needed for login form)
+  </script>
+</body>
+</html>

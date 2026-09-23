@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RIT CampusConnect</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Bot.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="chat-header">
+            <div class="header-left">
+                <!-- Updated Back Button -->
+                <button class="back-button" title="Back">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="ai-profile">
+                    <div class="logo-avatar">
+                        <img src="{{ url_for('static', filename='Rit-logo.jpg') }}" alt="RIT Logo">
+                    </div>
+                    <span class="ai-name">CampusConnect</span>
+                    <span class="online-status"></span>
+                </div>
+            </div>
+            <button class="profile-button" id="profileBtn">
+                <i class="fas fa-user-circle profile-icon"></i>
+              </button>              
+        </div>
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages"></div>
+            <div class="typing-indicator" id="typingIndicator">
+                Admissions Assistant is typing...
+                <span class="typing-dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </span>
+            </div>
+        </div>
+        <div class="input-container">
+            <button class="attachment-button"><i class="fas fa-paperclip"></i></button>
+            <input type="text" id="messageInput" placeholder="Type your message..." autocomplete="off">
+            <button class="send-button" id="sendButton"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='Bot.js') }}"></script>
+</body>
+</html>

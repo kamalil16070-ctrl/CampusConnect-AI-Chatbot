@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajalakshmi Institute Of Technology</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='RMC01.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="main-header">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='rit.png') }}" alt="Rajalakshmi Institute Of technology">
+                </div>
+                <nav>
+                    <ul id="main-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="Facilities.html">Facilities</a></li>
+                        <li><a href="Admission.html">Admissions</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="hamburger" id="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('{{ url_for('static', filename='Bblock.jpg') }}');"></div>
+            <div class="slide" style="background-image: url('{{ url_for('static', filename='rajalakshmi.png') }}');"></div>
+            <div class="slide" style="background-image: url('{{ url_for('static', filename='Nicola.png') }}');"></div>
+            <div class="slide" style="background-image: url('{{ url_for('static', filename='hut.png') }}');"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Rajalakshmi Institute Of Technology</h1>
+                <p>Believe in Possibilities</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">Apply Now</a>
+                    <a href="courses.html" class="btn btn-outline">Explore Courses</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Welcome to Rajalakshmi Institute Of Technology</h2>
+                <p>A Premier Institution</p>
+                <p>Dedicated to excellence in Technical education, Research, and Technical Innovations.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Shaping the Future of Technology</h3>
+                    <p>Rajalakshmi Institute of Technology (RIT) is a premier engineering college in Chennai, known for its academic excellence, industry-driven curriculum, and strong placements in top tech companies.</p>
+                    <p>With modern labs, expert faculty, and a vibrant campus life, RIT prepares students for successful careers in engineering and innovation.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>20+</h4>
+                            <p>Courses Offered</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-user-graduate"></i>
+                            <h4>1000+</h4>
+                            <p>Students Enrolled</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <h4>100+</h4>
+                            <p>Expert Faculty</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-flask"></i>
+                            <h4>50+</h4>
+                            <p>Research Projects</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="{{ url_for('static', filename='rajalakshmi.png') }}" alt="Medical College Campus">
+                    <img src="{{ url_for('static', filename='rmc1.jpg') }}" alt="Campus Library">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Quick Links -->
+    <section class="quick-links">
+        <div class="container">
+            <div class="links-grid">
+                <div class="link-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Our Courses</h3>
+                    <p>Explore our undergraduate and postgraduate medical programs</p>
+                    <a href="#" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="link-card">
+                    <i class="fas fa-hospital"></i>
+                    <h3>Facilities</h3>
+                    <p>State-of-the-art labs, library, and teaching hospital</p>
+                    <a href="#" class="btn btn-outline">View Facilities</a>
+                </div>
+                <div class="link-card">
+                    <i class="fas fa-rupee-sign"></i>
+                    <h3>Scholarships</h3>
+                    <p>Financial aid and scholarship opportunities</p>
+                    <a href="#" class="btn btn-outline">Apply Now</a>
+                </div>
+                <div class="link-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Admissions</h3>
+                    <p>Requirements and application process</p>
+                    <a href="#" class="btn btn-outline">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Department Section -->
+    <section class="departments" id="departments">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Departments</h2>
+                <p>Explore our specialized medical departments with expert faculty and advanced facilities</p>
+            </div>
+            <div class="departments-grid">
+                <div class="department-card">
+                    <i class="fas fa-hospital"></i>
+                    <h3>Rajalakshmi Medical College Hospital And Research Institute</h3>
+                    <a href="#" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-user-nurse"></i>
+                    <h3>Rajalakshmi College Of Nursing</h3>
+                    <a href="#" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-flask"></i>
+                    <h3>Rajalakshmi Institute Of Applied Sciences</h3>
+                    <a href="#" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-pills"></i>
+                    <h3>Rajalakshmi Institute Of Drug Research And Pharmacy</h3>
+                    <a href="#" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-running"></i>
+                    <h3>Rajalakshmi Institute Of Health Sciences And Physiotherapy</h3>
+                    <a href="#" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-search-plus"></i>
+                    <a href="courses.html" class="btn btn-outline">Explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Chatbot Icon -->
+    <a href="/chatbot" id="chatbot-fab" title="Chat with us">
+        <i class="fas fa-comments"></i>
+    </a>
+    <!-- Why Choose Us -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Rajalakshmi Medical College?</h2>
+                <p>Discover what makes us a leader in medical education and healthcare</p>
+            </div>
+            <div class="features">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h3>NAAC Accredited</h3>
+                        <p>Recognized with 'A' grade by National Assessment and Accreditation Council</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-medical"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h3>AI-Integrated Learning</h3>
+                        <p>Cutting-edge technology in medical education and diagnostics</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h3>Expert Faculty</h3>
+                        <p>Learn from renowned doctors and researchers with global experience</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-procedures"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h3>500-Bed Hospital</h3>
+                        <p>Extensive clinical exposure with diverse patient cases</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h3>Global Collaborations</h3>
+                        <p>Partnerships with leading international medical institutions</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h3>95% Placement</h3>
+                        <p>Excellent career opportunities with top healthcare providers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery -->
+    <section class="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Campus Gallery</h2>
+                <p>Explore our world-class facilities and vibrant campus life</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="{{ url_for('static', filename='rmc1.jpg') }}" alt="Campus Library">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="{{ url_for('static', filename='rmc2.jpg') }}" alt="Medical Lab">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="{{ url_for('static', filename='rmc5.jpg') }}" alt="Classroom">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="{{ url_for('static', filename='rmc3.jpg') }}" alt="Hospital Ward">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="#" class="btn btn-primary">View Full Gallery</a>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Get in touch with our admissions team or visit our campus</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Address</h3>
+                            <p>Pennalur, Sriperumbudur, Chennai-602117, Tamil Nadu, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p><a href="tel:+919361515443">+91-93615 15443</a><br></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p><a href="mailto:admin@annalimedicalcollege.edu.in">admin@annalimedicalcollege.edu.in</a><br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <!-- Embed map or image here -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="{{ url_for('static', filename='RMC01.js') }}"></script>
+</body>
+</html>

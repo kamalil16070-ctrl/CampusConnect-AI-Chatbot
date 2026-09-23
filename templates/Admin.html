@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel - FAQ Management</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 32px 40px 40px 40px;
+        }
+        h1, h2, h3 {
+            color: #2d3a4b;
+        }
+        a {
+            float: right;
+            color: #fff;
+            background: #e74c3c;
+            padding: 8px 18px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: -10px;
+        }
+        a:hover {
+            background: #c0392b;
+        }
+        form {
+            margin-bottom: 18px;
+            background: #f9fafb;
+            padding: 18px 20px;
+            border-radius: 7px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        input[type="text"], select {
+            width: 100%;
+            padding: 8px 10px;
+            margin-top: 4px;
+            margin-bottom: 14px;
+            border: 1px solid #d1d5db;
+            border-radius: 4px;
+            font-size: 15px;
+            background: #fff;
+        }
+        button[type="submit"] {
+            background: #3498db;
+            color: #fff;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 4px;
+            font-size: 15px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        button[type="submit"]:hover {
+            background: #217dbb;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #e1e4e8;
+            margin: 32px 0 24px 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: #f7fafd;
+            margin-bottom: 18px;
+            padding: 18px 20px;
+            border-radius: 7px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+            position: relative;
+        }
+        li b {
+            color: #34495e;
+        }
+        form[style*="inline-block"] {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        @media (max-width: 700px) {
+            .container {
+                padding: 12px 5vw 24px 5vw;
+            }
+            form, li {
+                padding: 12px 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Admin Panel - FAQ Management</h1>
+        <a href="/admin/logout">Logout</a>
+        <h2>Add New FAQ</h2>
+        <form action="/admin/add" method="post">
+            <label>Question: <input type="text" name="question" required></label>
+            <label>Answer: <input type="text" name="answer" required></label>
+            <label>Tags (comma separated): <input type="text" name="tags"></label>
+            <label>Category:
+                <select name="category">
+                    <option value="fees">Fees</option>
+                    <option value="library">Library</option>
+                    <option value="hostel">Hostel</option>
+                    <option value="academics">Academics</option>
+                    <option value="campus_life">Campus Life</option>
+                    <option value="general">General</option>
+                </select>
+            </label>
+            <button type="submit">Add FAQ</button>
+        </form>
+        <hr>
+        <h2>Existing FAQs</h2>
+        {% for category, faqs in faqs.items() %}
+            <h3>{{ category|capitalize }}</h3>
+            <ul>
+            {% for faq in faqs %}
+                <li>
+                    <b>Q:</b> {{ faq.question }}<br>
+                    <b>A:</b> {{ faq.answer }}<br>
+                    <b>Tags:</b> {{ faq.tags|join(', ') }}<br>
+                    <form action="/admin/update" method="post" style="display:inline-block; margin-right:10px;">
+                        <input type="hidden" name="question" value="{{ faq.question }}">
+                        <input type="text" name="answer" value="{{ faq.answer }}" required>
+                        <input type="text" name="tags" value="{{ faq.tags|join(', ') }}">
+                        <select name="category">
+                            <option value="fees" {% if faq.category=='fees' %}selected{% endif %}>Fees</option>
+                            <option value="library" {% if faq.category=='library' %}selected{% endif %}>Library</option>
+                            <option value="hostel" {% if faq.category=='hostel' %}selected{% endif %}>Hostel</option>
+                            <option value="academics" {% if faq.category=='academics' %}selected{% endif %}>Academics</option>
+                            <option value="campus_life" {% if faq.category=='campus_life' %}selected{% endif %}>Campus Life</option>
+                            <option value="general" {% if faq.category=='general' %}selected{% endif %}>General</option>
+                            <option value="transport" {% if faq.category=='transport' %}selected{% endif %}>Transport</option>
+                            <option value="Placement" {% if faq.category=='Placement' %}selected{% endif %}>Placement</option>
+                        </select>
+                        <button type="submit">Update</button>
+                    </form>
+                    <form action="/admin/delete" method="post" style="display:inline-block;">
+                        <input type="hidden" name="question" value="{{ faq.question }}">
+                        <button type="submit" onclick="return confirm('Delete this FAQ?');">Delete</button>
+                    </form>
+                </li>
+            {% endfor %}
+            </ul>
+        {% endfor %}
+    </div>
+</body>
+</html>
