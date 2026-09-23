@@ -1,0 +1,8 @@
+Flask
+flask-cors
+faiss-cpu
+sentence-transformers
+fuzzywuzzy
+numpy
+random2
+nltk

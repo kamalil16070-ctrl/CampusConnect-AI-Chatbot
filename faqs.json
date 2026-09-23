@@ -1,0 +1,730 @@
+{
+    "library": [
+      {
+        "question": "what are the library hours?",
+        "answer": "The library is open from 8 AM to 5 PM on weekdays and 10 AM to 2 PM on weekends.",
+        "tags": ["library hours", "library timings", "library open", "library schedule"]
+      },
+      {
+        "question": "can I borrow books during holidays?",
+        "answer": "Yes, with prior permission from the librarian.",
+        "tags": ["borrow books", "library holiday borrowing", "issue books holidays"]
+      },
+      {
+        "question": "how do I renew a borrowed book?",
+        "answer": "You can renew a book through the library portal or at the library counter.",
+        "tags": ["book renewal", "extend borrowing", "renew library book"]
+      },
+      {
+        "question": "Are there any fines for overdue books?",
+        "answer": "Yes, students must return library books before exams and may face penalties for overdue items. A 'no dues' certificate is required to sit for exams.",
+        "tags": ["library fine", "overdue books penalty", "no dues certificate"]
+      },
+      {
+        "question": "Where is library located in RIT?",
+        "answer": "The library is located in the Institutional building on the campus.",
+        "tags": ["library location", "where is the library", "campus library"]
+      },
+      {
+        "question": "How many books can a student borrow at a time in library?", 
+        "answer": "Students can borrow a maximum of three books at a time.", 
+        "tags": ["library book borrowing", "maximum books allowed", "student borrowing limit"]
+      },
+      {
+        "question": "Can I reserve a book that is currently issued to someone else?", 
+        "answer": "You can reserve a book at RIT Chennai library by searching the online catalog and clicking 'Request.' The library will notify you when it's available for pickup.", 
+        "tags": ["library book reservation", "online catalog request", "book availability notification"]
+      }
+    ],
+    "fees": [
+      {
+        "question": "when is the fees deadline?",
+        "answer": "Fees must be paid by April 30th.",
+        "tags": ["fee payment", "last date fees", "tuition deadline", "pay fees"]
+      },
+      {
+        "question": "how can I pay tuition online?",
+        "answer": "You can pay tuition fees through the student portal using UPI, debit card, or net banking.",
+        "tags": ["online fees payment", "pay tuition online", "tuition fees"]
+      },
+      {
+        "question": "can I pay my fees in installments?",
+        "answer": "Yes, installment options are available for eligible students. Contact the accounts office.",
+        "tags": ["fees installments", "split payment", "payment parts"]
+      },
+      {
+        "question": "Where can I check my fee receipt or dues?",
+        "answer": "You can check your fee receipt or any outstanding dues in the Accounts Room located in the Green Building.",
+        "tags": ["fee receipt", "dues check", "accounts office"]
+      },
+      {
+        "question": "Where can I get help understanding my tuition or fees?",
+        "answer": "You can visit the student services or accounts office on campus for personalized guidance.",
+        "tags": ["tuition fee guidance", "accounts office help", "fee clarification"]
+      },
+      {
+        "question": "Are students from economically weaker sections eligible for special fee waivers?",
+        "answer": "Yes, students from economically weaker sections (EWS) may be eligible for special fee waivers.",
+        "tags": ["ews fee waiver", "economically weaker section", "special fee concession"]
+      },
+      {
+        "question": "Can students apply for multiple financial aid schemes?",
+        "answer": "Yes, students can apply for multiple financial aid schemes simultaneously.",
+        "tags": ["multiple financial aid", "apply for aid schemes", "student financial assistance"]
+      },
+      {
+        "question": "Who do I contact if the online payment failed but the amount was deducted?",
+        "answer": "Contact your bank to confirm the transaction and initiate a reversal, then verify with the accounts section if they received the payment and provide proof.",
+        "tags": ["online payment failure", "payment reversal process", "accounts payment issue"]
+      },
+      {
+        "question": "Are exam fees refunded if I miss the exam for medical reasons?",
+        "answer": "Exam fees are usually non-refundable for medical absences, but the college may offer partial refunds or rescheduling.",
+        "tags": ["exam fee refund", "medical absence refund", "exam rescheduling policy"]
+      },
+      {
+        "question": "What should I do if my fee receipt has incorrect details?",
+        "answer": "If your fee receipt has errors, contact the accounts department with payment proof to fix it.",
+        "tags": ["fee receipt correction", "incorrect fee details", "accounts department help"]
+      },
+      {
+        "question": "Is there an EMI or installment option for paying fees?",
+        "answer": "Yes, there are options for EMI or installment plans for paying fees at RIT.",
+        "tags": ["emi fee payment", "installment fee option", "fee payment plans"]
+      },
+      {
+        "question": "What is the tuition fee structure for each academic year?",
+        "answer": "The tuition fees at RIT Chennai range from INR 55,000 to 66,000 for B.E./B.Tech programs and INR 50,000 to 55,000 for M.E./M.Tech in the first year.",
+        "tags": ["tuition fee structure", "annual fee details", "academic year fees"]
+      }
+    ],
+    "hostel": [
+      {
+        "question": "what is the hostel curfew time?",
+        "answer": "Hostel curfew is 10 PM every day.",
+        "tags": ["hostel timings", "curfew hostel", "entry timing hostel"]
+      },
+      {
+        "question": "can parents visit students in hostel?",
+        "answer": "Yes, parents can visit during designated hours with prior permission.",
+        "tags": ["parents visit hostel", "visitors in hostel", "guest hostel"]
+      },
+      {
+        "question": "how do I report a maintenance issue in hostel?",
+        "answer": "You can report maintenance issues through the hostel portal or directly to the warden.",
+        "tags": ["hostel maintenance", "repair hostel", "hostel complaint"]
+      },
+      {
+        "question": "Is it possible to vacate the hostel during the semester seasons?",
+        "answer": "Hostel vacating during exams is allowed with prior permission in exceptional circumstances, with a written request endorsed by relevant authorities.",
+        "tags": ["hostel vacating", "leave hostel during exams", "hostel exit permission"]
+      },
+      {
+        "question": "What are the meal timings in hostel?", 
+        "answer": "Meal timings are as follows: Breakfast – 6:00 to 8:00 AM, Lunch – 11:30 AM to 1:30 PM and Dinner – 7:00 to 8:00 PM.", 
+        "tags": ["hostel meal schedule", "breakfast lunch dinner", "mess food timings"]
+      },
+      {
+        "question": "Where is the hostel located?", 
+        "answer": "RIT has separate hostels for boys and girls. Girls hostel is located on the campus itself and boys hostel is located in IMA Chennai.", 
+        "tags": ["hostel location details", "boys girls hostel", "campus accommodation address"]
+      },
+      {
+        "question": "What are the hostel fees for the current academic year?", 
+        "answer": "Hostel fee is somewhere around 60,000-75,000 annually.", 
+        "tags": ["annual hostel fees", "current year charges", "hostel payment details"]
+      },
+      { 
+        "question": "How many students are accommodated in a single hostel room?", 
+        "answer": "Most hostel rooms at RIT accommodate 2-4 students.", 
+        "tags": ["hostel room sharing", "number of occupants", "student accommodation capacity"]
+      },
+      {
+        "question": "How can I apply for hostel accommodation?", 
+        "answer": "To apply for hostel accommodation fill out the online application with personal and academic details, and pay the required fee.", 
+        "tags": ["hostel application process", "accommodation registration steps", "online hostel form"]
+      },
+      {
+        "question": "Is there a laundry facility available in the hostel?", 
+        "answer": "Yes, the college hostel provides laundry facility available in the hostel.", 
+        "tags": ["hostel laundry facility", "washing service hostel", "laundry availability"]
+      },
+      {
+        "question": "What amenities are provided in the hostel rooms?", 
+        "answer": "Amenities in Hostel rooms include basic furniture like a cot, cupboard, and study table. Some rooms have a bookshelf, pest repellent light, and ceiling fan.", 
+        "tags": ["hostel room amenities", "furniture provided hostel", "room facilities list"]
+      },
+      {
+        "question": "Is Wi-Fi available in the hostel premises?", 
+        "answer": "Yes, Wi-Fi is available in the hostel premises 24/7.", 
+        "tags": ["hostel wifi access", "internet availability hostel", "wireless network hostel"]
+      },
+      {
+        "question": "Can students suggest changes to the mess menu?", 
+        "answer": "Yes, students can suggest changes to the mess menu! Your feedback helps improve the dining experience for everyone.", 
+        "tags": ["mess menu feedback", "student food suggestions", "dining improvement process"]
+      },
+      {
+        "question": "Is outside food delivery allowed in the hostel?", 
+        "answer": "Outside food delivery is allowed in the hostel only on weekends.", 
+        "tags": ["outside food delivery hostel", "weekend food orders", "hostel delivery policy"]
+      },
+      {
+        "question": "What’s the procedure if I want to shift from day scholar to hostel student mid-semester?",
+        "answer": "To switch from day scholar to hostel mid-semester submit an application, surrender your day scholar ID, pay the fees, and wait for room availability confirmation.",
+        "tags": ["day scholar to hostel", "mid semester hostel shift", "hostel admission procedure"]
+      },
+      {
+        "question": "Are students allowed to cook food in hostel rooms?",
+        "answer": "No students are not permitted to cook food inside hostel .",
+        "tags": ["cooking hostel rooms", "hostel food policy", "cooking restriction hostel"]
+      },
+      {
+        "question": "Are hostel students allowed to go out on weekends?",
+        "answer": "Yes, hostel students can go out on weekends, but must return by the curfew time, usually 6-7 PM.",
+        "tags": ["weekend outing hostel", "hostel curfew time", "student outing rules"]
+      },
+      {
+        "question": "Is medical assistance available for 24/7 in the hostel in case of emergencies?",
+        "answer": "Yes, medical assistance is available 24/7 in the hostel in case of emergencies.",
+        "tags": ["hostel medical assistance", "emergency medical hostel", "24/7 medical help"]
+      },
+      {
+        "question": "Can students organize group events or celebrations inside the hostel?",
+        "answer": "Yes, students can organize events in the hostel with prior permission from the head of the institution and by following guidelines.",
+        "tags": ["hostel group events", "event permission hostel", "celebration rules hostel"]
+      },
+      {
+        "question": "Is prior permission required for staying outside the hostel overnight?",
+        "answer": "Yes, prior permission from the reputed warden is required to stay outside the hostel overnight.",
+        "tags": ["overnight stay permission", "hostel warden approval", "outside stay rules"]
+      },
+      {
+        "question": "Is there a dress code inside the hostel premises?",
+        "answer": "No, there is no dress code inside the hostel premises.",
+        "tags": ["hostel dress code", "dress policy hostel", "hostel attire rules"]
+      },
+      {
+        "question": "Can parents or guardians stay overnight in the hostel?",
+        "answer": "No, parents or guardians are not allowed to stay overnight in the hostel.",
+        "tags": ["parent overnight stay", "guardian hostel stay", "hostel visitor rules"]
+      },
+      {
+        "question": "Can I change my room or block after allotment in hostel?",
+        "answer": "Yes, you can change your room or block after allotment, but prior permission from the reputed warden is required.",
+        "tags": ["hostel room change", "block change permission", "warden approval hostel"]
+      },
+      {
+        "question": "Will I be charged if there is damage to hostel property?",
+        "answer": "Yes, you will likely be charged for any damage to hostel property.",
+        "tags": ["hostel property damage", "damage charges hostel", "hostel rules penalty"]
+      },
+      {
+        "question": "Can hostel students access sports facilities after 6 PM?",
+        "answer": "Yes, hostel students at RIT can typically access sports facilities after 6 PM.",
+        "tags": ["hostel sports access", "evening sports facility", "after 6pm sports"]
+      }
+    ],
+    "academics": [
+      {
+        "question": "where can I check my exam schedule?",
+        "answer": "Exam schedules are published on the student portal under 'Academics > Exam Timetable'.",
+        "tags": ["exam timetable", "exam dates", "exam schedule"]
+      },
+      {
+        "question": "how do I register for elective courses?",
+        "answer": "Elective registration opens during the first week of each semester on the portal.",
+        "tags": ["elective registration", "choose elective", "elective courses"]
+      },
+      {
+        "question": "what is the minimum attendance requirement?",
+        "answer": "A minimum of 75% attendance is mandatory to sit for semester exams.",
+        "tags": ["attendance rule", "attendance criteria", "class attendance"]
+      },
+      {
+        "question": "How many internal and external exams are there per semester?",
+        "answer": "In a typical semester at RIT, there are three Internal Assessment Tests (CAT-I, CAT-II, CAT-III), one Model Exam, and one End Semester Exam.",
+        "tags": ["internal exams", "assessment tests", "semester exams structure"]
+      },
+      {
+        "question": "Where and when do I collect my exam hall ticket?",
+        "answer": "RIT distributes exam hall tickets through the Exam Cell, and they are handed over to students by the class in-charges a few days before the exams.",
+        "tags": ["hall ticket collection", "exam cell", "hall ticket distribution"]
+      },
+      {
+        "question": "What should I do if there's an error on my hall ticket?",
+        "answer": "First, contact the exam officials or department handling hall tickets for guidance on corrections or replacements.",
+        "tags": ["hall ticket error", "correction hall ticket", "exam cell contact"]
+      },
+      {
+        "question": "Can I appear for the exam without an ID card or hall ticket?",
+        "answer": "No, students are not permitted to appear for the exam without an ID card or hall ticket.",
+        "tags": ["exam id card requirement", "hall ticket mandatory", "exam entry rules"]
+      },
+      {
+        "question": "Are internal assessments mandatory for all subjects?",
+        "answer": "Yes, internal assessments at RIT are mandatory and count for 20% of the course grade, while end semester exams carry 80%.",
+        "tags": ["internal assessments", "mandatory internals", "course grading"]
+      },
+      {
+        "question": "Are there scholarships I can apply for during the year?",
+        "answer": "Yes, the college offers merit- and category-based scholarships year-round for both UG and PG students.",
+        "tags": ["scholarships available", "merit scholarships", "category scholarships"]
+      },
+      {
+        "question": "When are the semester exams usually held?",
+        "answer": "Semester exams at RIT are generally held in November/December for the odd semester and April/May for the even semester.",
+        "tags": ["semester exams timing", "exam months", "academic calendar"]
+      },
+      {
+        "question": "How long does it take for the semester results to be announced?",
+        "answer": "The results are typically announced within a few weeks (3-4 weeks) after the end of the semester.",
+        "tags": ["semester results", "exam results", "result announcement time"]
+      },
+      {
+        "question": "How can I contact my academic advisor?",
+        "answer": "To contact your academic advisor you can typically reach them via email or during their office hours.",
+        "tags": ["academic advisor", "contact advisor", "faculty contact"]
+      },
+      {
+        "question": "What is the procedure to apply for a re-examination in case of absence on the exam date?",
+        "answer": "Re-examination is possible for absentees; contact the Head of Department and follow the required procedures.",
+        "tags": ["re-examination procedure", "exam absence", "reappear for exam"]
+      },
+      {
+        "question": "Are resume reviews or mock interviews available?",
+        "answer": "Yes, the college offers resume reviews and mock interviews as part of their Training and Placement Cell activities.",
+        "tags": ["resume review", "mock interview", "placement support"]
+      },
+      {
+        "question": "What are the consequences of cheating or using unfair means?",
+        "answer": "Cheating or using unfair means can lead to serious academic consequences, including failing grades, suspension, or even expulsion.",
+        "tags": ["cheating consequences", "unfair means exam", "exam rules violation"]
+      },
+      {
+        "question": "What items are allowed inside the exam hall?",
+        "answer": "Students are typically allowed to bring their admit card, essential stationery, transparent water bottle, and a non-digital watch.",
+        "tags": ["allowed items exam hall", "exam stationery rules", "exam hall rules"]
+      },
+      {
+        "question": "How are practical exams evaluated?",
+        "answer": "Practical exams are assessed via internal tests, model exams, end-semester exams, and emphasized viva sessions.",
+        "tags": ["practical exams evaluation", "internal practicals", "viva session"]
+      },
+      {
+        "question": "Is there an option for re-evaluation or rechecking of answer scripts?",
+        "answer": "Yes, RIT offers a re-evaluation (or rechecking) process for answer scripts.",
+        "tags": ["revaluation option", "rechecking papers", "exam script reevaluation"]
+      },
+      {
+        "question": "How do I apply for revaluation?",
+        "answer": "Students must submit a filled application with a fee of Rs. 500 per script to the COE office. Revaluation is allowed for up to 3 answer scripts.",
+        "tags": ["apply revaluation", "revaluation process", "reevaluation application"]
+      },
+      {
+        "question": "How many attempts do I get to clear a backlog?",
+        "answer": "Students typically get multiple opportunities to clear backlogs.",
+        "tags": ["backlog attempts", "clearing backlogs", "repeat exams"]
+      },
+      {
+        "question": "Can I still write the exam if I have a medical issue affecting attendance?",
+        "answer": "Yes, you may be allowed to write the exam with a valid medical reason. Submit a medical certificate and inform the HoD or administration. Send a formal request to the Principal or Dean. Approval depends on the case.",
+        "tags": ["medical leave exam", "exam with medical issue", "attendance exemption"]
+      },
+      {
+        "question": "What support is available for students with disabilities or special needs during exams?",
+        "answer": "The institution provides support for students with disabilities or special needs during exams, including barrier-free environment and accessible features.",
+        "tags": ["disability support exams", "special needs exam help", "accessible exams"]
+      },
+      {
+        "question": "What is the usual duration and format of a viva?",
+        "answer": "Viva sessions are part of lab and project evaluations. Duration varies by course, and project vivas are usually conducted by internal and external examiners.",
+        "tags": ["viva format", "viva duration", "lab project viva"]
+      },
+      {
+        "question": "Will I receive a backlog if I fail the laboratory component of that particular subject?",
+        "answer": "Yes, failing the laboratory component of a subject can indeed lead to a backlog for that subject. While the internal marks remain unchanged.",
+        "tags": ["lab fail backlog", "laboratory failure", "lab component backlog"]
+      },
+      {
+        "question": "What is the grading system followed at RIT?", 
+        "answer": "RIT uses relative grading—‘O’ for 90%+, ‘B’ for ≥50%, with other grades curved in between.", 
+        "tags": ["relative grading system", "grade distribution policy", "marks evaluation method"]
+      },
+      { 
+        "question": "Are there mentorship programs for first-year students?",
+        "answer": "Yes, mentorship programs are conducted for first-year students after every semester.", 
+        "tags": ["first year mentorship", "student guidance program", "mentorship sessions"]
+      },
+      {
+        "question": "Is there a dress code for lab sessions?", 
+        "answer": "The college enforces a dress code for lab sessions, requiring formal attire and a compulsory pair of shoes.", 
+        "tags": ["lab session dress code", "formal attire requirement", "compulsory shoes lab"]
+      },
+      {
+        "question": "Is there any breakage fee if I break any lab equipment?", 
+        "answer": "Yes, you may need to pay a breakage fee.", 
+        "tags": ["lab equipment breakage fee", "damage penalty lab", "equipment replacement charge"]
+      },
+      {
+        "question": "Is it mandatory to use only college-provided notes for exams?",
+        "answer": "No, it is not mandatory to use only college-provided notes for exams. While the college may provide notes as a resource, students are free to utilize other study materials, including their own handwritten notes, textbooks, and other sources.",
+        "tags": ["exam study material policy", "college notes requirement", "study material flexibility"]
+      },
+      {
+        "question": "Are digital notes shared through any platform or app?",
+        "answer": "Yes, digital notes are shared at the college through section- and department-specific WhatsApp groups created by the college.",
+        "tags": ["digital notes sharing", "whatsapp group notes", "online study material"]
+      },
+      {
+        "question": "Are practical/lab manuals provided by the department?",
+        "answer": "Yes, practical and lab manuals are provided by the departments to support hands-on learning.",
+        "tags": ["lab manual provision", "practical manual support", "hands on learning"]
+      },
+      {
+        "question": "How can I apply for lateral entry into the second year?",
+        "answer": "The application process usually involves registering online, submitting the required documents, and potentially participating in a merit-based screening.",
+        "tags": ["lateral entry application", "second year admission", "merit based screening"]
+      },
+      {
+        "question": "Who decides the internal exam schedule — department or institution?",
+        "answer": "The College Examination Committee is responsible for preparing the academic calendar and scheduling internal examinations.",
+        "tags": ["internal exam schedule", "examination committee", "academic calendar planning"]
+      },
+      {
+        "question": "Will the college provide the necessary study materials for our subjects?",
+        "answer": "Yes, study materials, including textbooks and online resources are provided for their courses.",
+        "tags": ["study material provision", "textbook availability", "course resources"]
+      },
+      {
+        "question": "Is smartwatches allowed during exams?",
+        "answer": "No smartwatches are prohibited during exams.",
+        "tags": ["smartwatch exam policy", "exam gadget restriction", "prohibited devices exam"]
+      },
+      {
+        "question": "How many department does the college offers?",
+        "answer": "RIT Chennai offers eight departments under its undergraduate engineering programs, including B.E. in Computer Science & Engineering, Electronics & Communication Engineering, Mechanical Engineering, Computer & Communication Engineering, Electronic Engineering (VLSI), and Bio Technology, and B.Tech in Artificial Intelligence & Data Science and Computer Science and Business Systems.",
+        "tags": ["number of departments", "engineering departments list", "undergraduate programs"]
+      }
+    ],
+    "Placement": [
+      {
+        "question": "What companies visit RIT for campus placements?", 
+        "answer": "Top companies like TCS, Infosys, Wipro, Amazon, IBM, Microsoft, and additionally companies like Zoho, Oracle, Huawei, South Indian Bank, and Envestnet also participate.", 
+        "tags": ["campus placement companies", "recruitment drive participants", "top hiring organizations"]
+      },
+      {
+        "question": "What is the average placement package offered?", 
+        "answer": "The average placement package at RIT Chennai is around ₹4–9LPA.", 
+        "tags": ["average placement package", "salary range placements", "student job offers"]
+      },
+      {
+        "question": "What is the highest and lowest placement package offered?", 
+        "answer": "The highest placement ranges from 25 to 45 LPA, while the lowest package is around 3.5 LPA.", 
+        "tags": ["highest placement package", "lowest salary offer", "placement statistics"]
+      },
+      {
+        "question": "Is there a placement cell in the college?", 
+        "answer": "Yes the college offers a placement cell. This cell plays a crucial role in helping students develop employability skills and find employment.", 
+        "tags": ["college placement cell", "employability skill development", "student job assistance"]
+      },
+      {
+        "question": "Are internships facilitated by the college?", 
+        "answer": "The college offers internships and practical training through collaborations with companies like TCS, Wipro, and Zoho.", 
+        "tags": ["internship facilitation college", "practical training opportunities", "industry collaboration internships"]
+      },
+      {
+        "question": "What are the eligibility criteria for placement?",
+        "answer": "The eligibility criteria for placements are that students must have completed a B.E./B.Tech and meet the Class 12 percentage criteria.",
+        "tags": ["placement eligibility", "criteria for placements", "eligibility for jobs"]
+      }
+    ],
+    "campus_life": [
+      {
+        "question": "is there a shuttle service available?",
+        "answer": "Yes, shuttle buses operate between main campus points from 7 AM to 9 PM.",
+        "tags": ["shuttle service", "campus transport", "campus bus"]
+      },
+      {
+        "question": "how do I join a campus club?",
+        "answer": "You can register for clubs during the student activities fair or online portal.",
+        "tags": ["join club", "student clubs", "campus clubs"]
+      },
+      {
+        "question": "is there a gym on campus?",
+        "answer": "Yes, the campus gym is open daily from 6 AM to 9 PM for all students.",
+        "tags": ["gym facilities", "workout campus", "fitness center"]
+      },
+      {
+        "question": "Does the college host any inter-college cultural fests or events?",
+        "answer": "Yes, RIT hosts inter-college cultural fests and events. YATRA is a grand intercollege cultural fest organized by the student community with the support of Faculties, Principal and authorities.",
+        "tags": ["cultural fest", "college events", "yatra cultural event"]
+      },
+      {
+        "question": "Is permission available for birthday celebrations on campus?",
+        "answer": "No, permission is generally not granted for students to celebrate birthdays inside the campus.",
+        "tags": ["birthday celebrations", "celebrate birthday campus", "birthday permission"]
+      },
+      {
+        "question": "What kind of cultural or arts events happen on campus?",
+        "answer": "The college organizes a variety of cultural and arts events, including its annual cultural festival, Yatra, and events celebrated by the Artist League cultural club.",
+        "tags": ["arts events", "cultural activities", "artist league"]
+      },
+      {
+        "question": "How many events are usually conducted in the college each year?",
+        "answer": "RIT typically hosts over 50 sports, cultural activities, and competitions each year. These events include cultural festival, Yatra, and various departmental events.",
+        "tags": ["college events", "annual events", "number of events in college"]
+      },
+      {
+        "question": "Are meal plans available, and how do they work?",
+        "answer": "Yes, RIT offers meal plans with a vegetarian canteen, subsidized mess (including a separate one for boys), and hostel dining halls.",
+        "tags": ["meal plans", "mess food", "canteen", "food options"]
+      },
+      {
+        "question": "What kind of cultural or arts events happen on campus?",
+        "answer": "The college organizes a variety of cultural and arts events, including its annual cultural festival, Yatra, and events celebrated by the Artist League cultural club.",
+        "tags": ["arts events", "cultural activities", "artist league"]
+      },
+      {"question": "Is non-vegetarian food available on campus?", 
+      "answer": "Non-vegetarian food is not available on campus.", 
+      "tags": ["non vegetarian food campus", "mess food options", "dietary restrictions hostel"]
+      },
+      {"question": "Are there any food outlets or cafes within the campus?", 
+      "answer": "The campus has a canteen with a variety of foods and desserts.", 
+      "tags": ["campus food outlets", "canteen and cafes", "on campus dining"]
+      },
+      {"question": "Are there vending machines available on campus?", 
+      "answer": "Yes, vending machines are available on campus, specifically in the Green Building.", 
+      "tags": ["campus vending machines", "green building snacks", "automatic food dispensers"]
+      },
+      {"question": "What student clubs are active on campus?", 
+      "answer": "The active student clubs on campus include the STEAM Club, IoT Club, CAM Club, TechSparks Club, NSS club, Language Club, Maths Club, Rotaract Club, and YUVA Club.", 
+      "tags": ["active student clubs", "campus club list", "extracurricular activities"]
+      },
+      {"question": "What is the procedure to join a club?", 
+      "answer": "To join a college club, find one that interests you and fill out the application via email or provided links.", 
+      "tags": ["club joining procedure", "application process club", "student club registration"]
+      },
+      {"question": "Are there any leadership opportunities within clubs?", 
+      "answer": "RIT offers leadership roles in clubs, including president, vice president, treasurer, and event committee positions.", 
+      "tags": ["club leadership opportunities", "president vice president", "event committee roles"]
+      },
+      {
+        "question": "Do club members receive certificates for participation?",
+        "answer": "Yes, club members receive certificates in recognition of their active participation and contributions to club activities.",
+        "tags": ["club participation certificate", "club activity recognition", "certificate for club"]
+      },
+      {
+        "question": "Can clubs collaborate with industries or NGOs?",
+        "answer": "Yes, clubs can collaborate with industries and NGOs. The college actively fosters partnerships with industries.",
+        "tags": ["club industry collaboration", "ngo partnership clubs", "industry partnership college"]
+      },
+      {
+        "question": "Are project exhibitions conducted by student clubs?",
+        "answer": "Yes, RIT does conduct project exhibitions by student clubs.",
+        "tags": ["club project exhibition", "student club events", "project showcase clubs"]
+      },
+      {
+        "question": "Can club activities contribute to academic credits?",
+        "answer": "No, club activities do not typically contribute to academic credits.",
+        "tags": ["club academic credits", "club activity credits", "academic contribution clubs"]
+      },
+      {
+        "question": "Do clubs have membership fees?",
+        "answer": "No, joining club doesn't require membership fees.",
+        "tags": ["club membership fees", "joining club cost", "club fee policy"]
+      },
+      {
+        "question": "Are there clubs focused on social service or volunteering?",
+        "answer": "Yes, RIT has Rotaract Club , YUVA club, UBA club, YRC club and an NSS (National Service Scheme) club.",
+        "tags": ["social service clubs", "volunteering club info", "rotaract nss club"]
+      },
+      {
+        "question": "Will On Duty (OD) be granted if I participate in a club event?",
+        "answer": "Yes, official OD will be granted to students who have registered for the club events.",
+        "tags": ["on duty club event", "od for club participation", "club event attendance"]
+      },
+      {
+        "question": "Does the college have any coding or programming clubs?",
+        "answer": "Yes, there's the Techsparks Club which organizes events like 'BLIND CODING'.",
+        "tags": ["coding club availability", "programming club events", "techsparks club info"]
+      },
+      {
+        "question": "What types of clubs are available for students (technical, cultural, sports, etc.)?",
+        "answer": "The active student clubs on campus include the STEAM Club, YRC Club, UBA Club, TechSparks Club, NSS club, Tamil Club, Fusion club(english club), Infinitus Club, Rotaract Club, and YUVA Club.",
+        "tags": ["student club types", "campus clubs list", "technical cultural sports clubs"]
+      },
+      {
+        "question": "Are clubs open to all departments and years?",
+        "answer": "Yes, clubs are open to all the students from all departments and years.",
+        "tags": ["club eligibility", "all department clubs", "student club access"]
+      }
+    ],
+    "general": [
+      {
+        "question": "how can I get my ID card reissued?",
+        "answer": "Report the lost ID at the admin office and apply for reissuance with proper documents.",
+        "tags": ["id card reissue", "lost id", "new id card"]
+      },
+      {
+        "question": "how do I update my contact number in records?",
+        "answer": "You can update your contact number by logging into the student portal under profile settings.",
+        "tags": ["update contact", "change phone number", "update profile"]
+      },
+      {
+        "question": "how do I request for a transcript?",
+        "answer": "You can request transcripts online through the academic portal or by visiting the academic office.",
+        "tags": ["request transcript", "academic transcript", "get transcript"]
+      },
+      {
+        "question": "What is the college's email ID and contact number?",
+        "answer": "College email ID - mail@ritchennai.edu.in; Contact numbers - 4467181600 or 8925977445.",
+        "tags": ["college contact", "email id college", "rit contact number"]
+      },
+      {
+        "question": "How do I report a maintenance issue?",
+        "answer": "To report maintenance issues, contact the college administration via phone, email, website, or Grievance Cell.",
+        "tags": ["maintenance issue", "report problem", "college grievance cell"]
+      },
+      {
+        "question": "Is there a specific dress code to follow in college?",
+        "answer": "Boys must wear tucked-in formal shirts, chinos/formal pants (no jeans), and formal shoes. Girls must wear salwar with dupatta; jeans, short tops, and T-shirts are not allowed.",
+        "tags": ["college dress code", "student dress rules", "dress guidelines"]
+      },
+      {
+        "question": "How do I get a new ID card in case I lost the previous one?",
+        "answer": "To get a new ID card, contact Student Affairs or the ID Card Office with your student ID and required details; a replacement fee may apply.",
+        "tags": ["lost id card", "replace id card", "student affairs id"]
+      },
+      {
+        "question": "Is mobile phone usage allowed inside the classroom?",
+        "answer": "Mobile phone use is strictly prohibited in classrooms, unless prior permission is given by the faculty.",
+        "tags": ["mobile phone rule", "phone classroom", "phone usage in class"]
+      },
+      {
+        "question": "How do I access Wi-Fi on campus?",
+        "answer": "You can access the internet from virtually anywhere on campus. To connect to the Wi-Fi:\n1) Locate the network\n2) Connect to the network\n3) Log in",
+        "tags": ["wifi access", "internet campus", "connect to wifi"]
+      },
+      {
+        "question": "Are programming labs available after regular college hours?",
+        "answer": "Programming labs can be used after regular hours with HOD approval and specific groups present.",
+        "tags": ["programming lab access", "labs after hours", "lab usage"]
+      },
+      {
+        "question": "Is it possible to leave college before the scheduled time in case of an emergency?",
+        "answer": "Yes, it is possible but it requires proper information and approval from the administration.",
+        "tags": ["emergency leave", "early exit", "leave college early"]
+      },
+      {
+        "question": "What are the college opening hours?",
+        "answer": "The Institution is typically open from 8:00 AM to 3:00 PM.",
+        "tags": ["college timings", "institution opening hours", "campus open time"]
+      },
+      {
+        "question": "Can I bring a bike or scooter to campus?",
+        "answer": "Yes, students can bring their own vehicles to campus. The college has parking facilities for both two-wheelers and cars.",
+        "tags": ["bring bike campus", "scooter to college", "vehicle parking"]
+      },
+      {
+        "question": "Is there campus parking available for students?",
+        "answer": "Yes, campus parking is available for students at RIT. It is located outside the main campus near the entrance.",
+        "tags": ["campus parking", "student parking", "vehicle parking facility"]
+      },
+      {
+        "question": "What should I do if I lose my ID or hall ticket right before the exam?",
+        "answer": "If you lose your ID or hall ticket before an exam, contact the administration office for help. You may get a temporary ID or duplicate hall ticket for a fee. Also, report the loss to the HOD.",
+        "tags": ["lost id before exam", "lost hall ticket", "duplicate hall ticket"]
+      },
+      {"question": "What is the college's email ID?", 
+      "answer": "College email ID- mail@ritchennai.edu.in", 
+      "tags": ["official email address", "college contact email", "rit chennai email"]
+      },
+      {"question": "What is the college's contact number?", 
+      "answer": "Contact number - 4467181600 or 8925977445", 
+      "tags": ["official contact number", "college phone number", "rit chennai contact"]
+      },
+      {"question": "Are there mentorship programs for first-year students?", 
+      "answer": "Yes, mentorship programs are conducted for first-year students after every semester.", 
+      "tags": ["first year mentorship", "student guidance program", "mentorship sessions"]
+      },
+      {"question": "Can students pitch their own ideas for campus improvement or innovation?", 
+      "answer": "Yes, RIT Chennai allows students to pitch ideas through IIC and student councils.", 
+      "tags": ["campus improvement ideas", "student innovation platform", "iic council participation"]
+      },
+      {"question": "Are there any bridge courses for students from non-technical backgrounds?", 
+      "answer": "Yes, mostly online bridge courses help non-tech students build basics in math, science, and communication.",
+       "tags": ["bridge courses online", "non technical student support", "foundation learning program"]
+      },
+      {"question": "Do the classrooms have air conditioning?",
+      "answer": "Yes, classrooms at RIT are air-conditioned, offering a comfortable learning environment.",
+      "tags": ["classroom air conditioning", "learning environment comfort", "facility amenities"]
+      },
+      {"question": "Are smart boards available in the classrooms?",
+      "answer": "Yes, classrooms are equipped with smart boards, enhancing interactive and tech-enabled learning experiences.",
+      "tags": ["smart board classroom", "interactive learning tools", "tech enabled classroom"]
+      },
+      {"question": "Is there a water tank available for drinking water?",
+      "answer": "Yes, drinking water tanks are available on every floor for student convenience.",
+      "tags": ["drinking water tank", "student convenience", "campus facilities"]
+      },
+      {"question": "Are there any printing shops on campus?",
+      "answer": "Yes, there is a printing shop on campus, located opposite the admin office.",
+      "tags": ["printing shop campus", "print facility location", "student printing services"]
+      },
+      {
+        "question": "Are mobile phones allowed inside the lab?",
+        "answer": "No, mobile phones are prohibited inside labs.",
+        "tags": ["lab mobile phone policy", "device restrictions lab", "student conduct lab"]
+      },
+      {
+        "question": "Are accessories like caps, sunglasses, or bandanas allowed on campus?",
+        "answer": "Accessories like caps, sunglasses, and bandanas are likely not permitted on the campus.",
+        "tags": ["accessory policy campus", "caps sunglasses bandanas", "dress code accessories"]
+      },
+      {
+        "question": "Are students required to carry their ID cards at all times?",
+        "answer": "Yes, students are generally required to carry their identity cards at all times while on campus.",
+        "tags": ["id card requirement", "student identification campus", "carry id policy"]
+      },
+      {
+        "question": "Are there restrictions on using personal laptops in class?",
+        "answer": "RIT doesn't explicitly ban laptops in classrooms, it does restrict the use of cell phones.",
+        "tags": ["laptop usage class", "personal device policy", "cell phone restriction"]
+      },
+      {
+        "question": "Is 24/7 medical assistance available on campus?",
+        "answer": "Yes, 24/7 medical assistance is available on campus.",
+        "tags": ["medical assistance campus", "24/7 health service", "emergency medical help"]
+      },
+      {
+        "question": "Does the college have notice boards in every block?",
+        "answer": "Yes, the college has notice boards in every block.",
+        "tags": ["notice boards location", "block notice boards", "college announcements"]
+      }
+    ],
+    "transport": [
+      {"question": "What are the bus routes for the college?", 
+    " answer": "The college has multiple bus routes. For details, check the transport page - www.rittransport.com or contact the bus manager.", 
+      "tags": ["college bus routes", "transportation details", "bus manager contact"]
+      },
+      {"question": "What time do the buses arrive at the college?", 
+    " answer": "College buses typically arrive at the campus before 8 AM.", 
+      "tags": ["bus arrival time", "morning transport schedule", "college bus timing"]
+      },
+      {"question": "Is there a transportation fee separate from tuition?", 
+      "answer": "Yes, rit does have a separate transportation fee for students utilizing the college's bus service.", 
+      "tags": ["separate transportation fee", "bus service charges", "transport payment details"]
+      },
+      {"question": "Is any safety kit provided in buses?",
+      "answer": "Yes, safety kits are provided on the buses.", 
+      "tags": ["bus safety kit provided", "student transport safety", "bus emergency equipment"]
+      },
+      {
+        "question": "Is there a WhatsApp group or app for bus delay or cancellation updates?",
+        "answer": "Yes, WhatsApp groups are available to provide updates in case of any delays or cancellations.",
+        "tags": ["bus delay", "whatsapp group bus", "bus cancellation updates"]
+      }
+    ]
+  }
+  
